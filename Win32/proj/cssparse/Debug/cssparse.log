@@ -1,0 +1,17 @@
+﻿Build started 10/1/2015 9:53:53 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\cssparse\cssparse.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\cssparse.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         cssparse.vcxproj -> F:\OpenSees2.4.0\Win32\proj\cssparse\.\..\..\lib\debug\cssparse.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\cssparse.unsuccessfulbuild".
+         Touching "Debug\cssparse.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\cssparse\cssparse.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

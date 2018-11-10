@@ -1,0 +1,27 @@
+﻿Build started 10/1/2015 8:28:57 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\handler\handler.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\handler\debug\handler.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\..\..\lib\debug\handler.lib" /NOLOGO .\..\..\obj\handler\debug/BinaryFileStream.obj
+         .\..\..\obj\handler\debug/DataFileStream.obj
+         .\..\..\obj\handler\debug/DatabaseStream.obj
+         .\..\..\obj\handler\debug/DummyStream.obj
+         .\..\..\obj\handler\debug/FileStream.obj
+         .\..\..\obj\handler\debug/OPS_Stream.obj
+         .\..\..\obj\handler\debug/StandardStream.obj
+         .\..\..\obj\handler\debug/TCP_Stream.obj
+         .\..\..\obj\handler\debug/XmlFileStream.obj
+         handler.vcxproj -> F:\OpenSees2.4.0\Win32\proj\handler\.\..\..\lib\debug\handler.lib
+       BscMake:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\..\..\lib\debug\handler.bsc" .\..\..\obj\handler\debug\BinaryFileStream.sbr .\..\..\obj\handler\debug\DataFileStream.sbr .\..\..\obj\handler\debug\DatabaseStream.sbr .\..\..\obj\handler\debug\DummyStream.sbr .\..\..\obj\handler\debug\FileStream.sbr .\..\..\obj\handler\debug\OPS_Stream.sbr .\..\..\obj\handler\debug\StandardStream.sbr .\..\..\obj\handler\debug\TCP_Stream.sbr .\..\..\obj\handler\debug\XmlFileStream.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\handler\debug\handler.unsuccessfulbuild".
+         Touching ".\..\..\obj\handler\debug\handler.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\handler\handler.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47

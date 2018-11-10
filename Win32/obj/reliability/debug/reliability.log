@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\reliability\reliability.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\reliability\debug\reliability.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         reliability.vcxproj -> F:\OpenSees2.4.0\Win32\proj\reliability\.\..\..\lib\debug\reliability.lib
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\reliability\debug\reliability.unsuccessfulbuild".
+         Touching ".\..\..\obj\reliability\debug\reliability.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\reliability\reliability.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\domain\domain.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\domain\debug\domain.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         domain.vcxproj -> F:\OpenSees2.4.0\Win32\proj\domain\.\..\..\lib\debug\domain.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\domain\debug\domain.unsuccessfulbuild".
+         Touching ".\..\..\obj\domain\debug\domain.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\domain\domain.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

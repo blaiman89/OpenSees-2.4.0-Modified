@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b6877e5c-e3f8-4234-85c2-b8865677656b}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{54b49924-26f6-435f-aa4f-e93470f984ae}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{dec5f356-9e52-4ed9-adf6-e895b730ad51}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="tcl">
+      <UniqueIdentifier>{e8ec759b-dcde-4f75-989f-73ad36973b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain">
+      <UniqueIdentifier>{88a5a033-da9c-4a0c-9dd0-abd46b5ca4f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="domain\component">
+      <UniqueIdentifier>{e9341992-f7db-4034-85c7-864231028fd1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SRC\optimization\tcl\TclOptimizationBuilder.cpp">
+      <Filter>tcl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\Optimization.cpp">
+      <Filter>domain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\OptimizationDomain.cpp">
+      <Filter>domain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\OptimizationDomainComponent.cpp">
+      <Filter>domain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\component\ConstraintFunction.cpp">
+      <Filter>domain\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\component\DesignVariable.cpp">
+      <Filter>domain\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\component\DesignVariableIter.cpp">
+      <Filter>domain\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\component\DesignVariablePositioner.cpp">
+      <Filter>domain\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\component\DesignVariablePositionerIter.cpp">
+      <Filter>domain\component</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\optimization\domain\component\ObjectiveFunction.cpp">
+      <Filter>domain\component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SRC\optimization\tcl\TclOptimizationBuilder.h">
+      <Filter>tcl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\Optimization.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\OptimizationDomain.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\OptimizationDomainComponent.h">
+      <Filter>domain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\component\ConstraintFunction.h">
+      <Filter>domain\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\component\DesignVariable.h">
+      <Filter>domain\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\component\DesignVariableIter.h">
+      <Filter>domain\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\component\DesignVariablePositioner.h">
+      <Filter>domain\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\component\DesignVariablePositionerIter.h">
+      <Filter>domain\component</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\optimization\domain\component\ObjectiveFunction.h">
+      <Filter>domain\component</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:53 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\superLU\superLU.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\superLU\debug\superLU.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         superLU.vcxproj -> F:\OpenSees2.4.0\Win32\proj\superLU\.\..\..\lib\debug\superLU.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\superLU\debug\superLU.unsuccessfulbuild".
+         Touching ".\..\..\obj\superLU\debug\superLU.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\superLU\superLU.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.13

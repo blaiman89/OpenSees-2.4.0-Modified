@@ -1,0 +1,101 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\actor\actor.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching ".\..\..\obj\actor\debug\actor.unsuccessfulbuild".
+       ClCompile:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\SRC\element\taperedDispBeamColumn /I..\..\..\src\material\nD\UWmaterials /I..\..\..\src\element\UWelements /I..\..\..\src\element\triangle /I..\..\..\SRC\domain\pattern\drm /I..\..\..\src\material\uniaxial\snap /I..\..\..\src\element\frictionBearing\frictionModel /I..\..\..\src\element\frictionBearing /I..\..\..\src\api /I..\..\..\SRC\element\upU /I..\..\..\src\analysis\algorithm\equiSolnAlgo\accelerator /I..\..\..\SRC\tcl /I"..\..\..\SRC\element\UP-ucsd" /I..\..\..\src\actor\machineBroker /I..\..\..\SRC\actor\shadow /I..\..\..\src\package /I"c:\Program Files\tcl\include" /I..\..\..\src\element\elasticBeamColumn /I..\..\..\src\element\shell /I..\..\..\src\element\dispBeamColumn /I..\..\..\src\element\beamWithHinges /I..\..\..\src\element\forceBeamColumn /I..\..\..\src\material\section\fiber /I..\..\..\src\element\fourNodeQuad /I..\..\..\src\material\backbone /I..\..\..\src\material\state /I..\..\..\src\material\state\stiffness /I..\..\..\src\material\state\deformation /I..\..\..\src\material\state\strength /I..\..\..\src\material\nD /I..\..\..\src\coordTransformation /I..\..\..\src\domain\groundMotion /I..\..\..\src\system_of_eqn\linearSOE\profileSPD /I..\..\..\src\system_of_eqn\linearSOE /I..\..\..\src\system_of_eqn\linearSOE\sparseSYM /I..\..\..\src\analysis\integrator /I..\..\..\src\analysis\fe_ele /I..\..\..\src\analysis\dof_grp /I..\..\..\src\system_of_eqn\eigenSOE /I..\..\..\src\handler /I..\..\..\symSparse /I..\..\..\src\analysis\model\simple /I..\..\..\src\system_of_eqn\linearSOE\umfGEN /I..\..\..\src\system_of_eqn\linearSOE\fullGEN /I..\..\..\src\system_of_eqn\linearSOE\sparseGEN /I..\..\..\src\system_of_eqn\linearSOE\bandSPD /I..\..\..\src\system_of_eqn\linearSOE\bandGEN /I..\..\..\src\analysis\algorithm\domaindecompAlgo /I..\..\..\src\analysis\algorithm\eigenAlgo /I..\..\..\src\domain\domain\single /I..\..\..\src\convergenceTest /I..\..\..\src\analysis\analysis /I..\..\..\src\recorder /I..\..\..\src\analysis\algorithm\equiSolnAlgo /I..\..\..\src\analysis\algorithm /I..\..\..\src\system_of_eqn /I..\..\..\src\graph\graph /I..\..\..\src\graph\numberer /I..\..\..\src\analysis\numberer /I..\..\..\src\analysis\fe_ele\transformation /I..\..\..\src\analysis\fe_ele\lagrange /I..\..\..\src\analysis\fe_ele\penalty /I..\..\..\src\actor\objectBroker /I..\..\..\src\actor\channel /I..\..\..\src\utility /I..\..\..\src\domain\subdomain /I..\..\..\src\domain\constraints /I..\..\..\src\tagged /I..\..\..\src\domain\component /I..\..\..\src\domain\node /I..\..\..\src\element /I..\..\..\src\matrix /I..\..\..\src\domain\domain /I..\..\..\src\analysis\model /I..\..\..\src /I..\..\..\src\actor\actor /I..\..\..\src\analysis\handler /I..\..\..\src\material\section /I..\..\..\src\modelbuilder /I..\..\..\src\renderer /I..\..\..\src\modelbuilder\tcl /I..\..\..\src\tagged\storage /I..\..\..\src\element\nonlinearBeamColumn\tcl\repres\section /I..\..\..\src\element\nonlinearBeamColumn\tcl\repres\patch /I..\..\..\src\element\nonlinearBeamColumn\tcl\repres\reinfBar /I..\..\..\src\element\nonlinearBeamColumn\tcl\repres\reinfLayer /I..\..\..\src\element\nonlinearBeamColumn\tcl\repres\cell /I..\..\..\src\element\nonlinearBeamColumn /I..\..\..\src\element\nonlinearBEamCOlumn\quadrule /I..\..\..\src\element\nonlinearBeamColumn\matrixutil /I..\..\..\src\element\nonlinearBeamColumn\fiber /I..\..\..\src\material /I..\..\..\src\element\nonlinearBeamColumn\element /I..\..\..\src\domain\load /I..\..\..\src\domain\pattern /I..\..\..\src\element\zeroLength /I..\..\..\src\element\feap /I..\..\..\src\element\truss /I..\..\..\src\element\beam3d /I..\..\..\src\element\beam2d /I..\..\..\src\material\uniaxial /I..\..\..\src\actor\address /I..\..\..\src\actor\message /I..\..\..\src\nDarray /I..\..\..\src\material\uniaxial\fedeas /I..\..\..\src\material\uniaxial\drain /I..\..\..\src\element\8nbrick /I..\..\..\src\element\brick /I..\..\..\src\material\uniaxial\py /I..\..\..\src\material\nd\soil /I..\..\..\src\element\joint /I..\..\..\src\material\nd\feap /I..\..\..\other\SuperLU_3.0\SRC /I"c:\Program Files\tcl" /ZI /nologo /W3 /WX- /Od /Oy- /D _DEBUG /D _LIB /D _MBCS /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\..\..\obj\actor\debug/" /Fd".\..\..\obj\actor\debug/vc100.pdb" /FR".\..\..\obj\actor\debug\\" /Gd /TP /analyze- /errorReport:prompt ..\..\..\SRC\actor\actor\Actor.cpp ..\..\..\SRC\actor\channel\Channel.cpp ..\..\..\SRC\actor\address\ChannelAddress.cpp ..\..\..\SRC\actor\objectBroker\FEM_ObjectBroker.cpp ..\..\..\SRC\actor\objectBroker\FEM_ObjectBrokerAllClasses.cpp ..\..\..\SRC\actor\channel\HTTP.cpp ..\..\..\SRC\actor\message\Message.cpp ..\..\..\SRC\actor\actor\MovableObject.cpp ..\..\..\SRC\actor\objectBroker\ObjectBroker.cpp ..\..\..\SRC\actor\shadow\Shadow.cpp ..\..\..\SRC\actor\channel\Socket.cpp ..\..\..\SRC\actor\channel\TCP_Socket.cpp ..\..\..\SRC\actor\channel\UDP_Socket.cpp
+         Actor.cpp
+         Channel.cpp
+         ChannelAddress.cpp
+         FEM_ObjectBroker.cpp
+         FEM_ObjectBrokerAllClasses.cpp
+     1>f:\opensees2.4.0\src\actor\objectbroker\fem_objectbrokerallclasses.cpp(459): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>f:\opensees2.4.0\src\actor\objectbroker\fem_objectbrokerallclasses.cpp(479): warning C4065: switch statement contains 'default' but no 'case' labels
+     1>f:\opensees2.4.0\src\actor\objectbroker\fem_objectbrokerallclasses.cpp(1921): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\opensees2.4.0\src\actor\objectbroker\fem_objectbrokerallclasses.cpp(1922): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         HTTP.cpp
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(158): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(159): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(160): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(161): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(162): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(163): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(207): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(300): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(301): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(302): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\http.cpp(349): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Message.cpp
+         MovableObject.cpp
+         ObjectBroker.cpp
+         Shadow.cpp
+         Socket.cpp
+         TCP_Socket.cpp
+     1>f:\opensees2.4.0\src\actor\channel\tcp_socket.cpp(886): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\opensees2.4.0\src\actor\channel\tcp_socket.cpp(887): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\tcp_socket.cpp(888): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\tcp_socket.cpp(889): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\tcp_socket.cpp(890): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\tcp_socket.cpp(891): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\tcp_socket.cpp(907): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         UDP_Socket.cpp
+     1>f:\opensees2.4.0\src\actor\channel\udp_socket.cpp(841): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>f:\opensees2.4.0\src\actor\channel\udp_socket.cpp(842): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\udp_socket.cpp(843): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\udp_socket.cpp(844): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\udp_socket.cpp(845): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\udp_socket.cpp(846): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>f:\opensees2.4.0\src\actor\channel\udp_socket.cpp(862): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 f:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         Generating Code...
+       Lib:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\..\..\lib\debug\actor.lib" /NOLOGO .\..\..\obj\actor\debug/Actor.obj
+         .\..\..\obj\actor\debug/Channel.obj
+         .\..\..\obj\actor\debug/ChannelAddress.obj
+         .\..\..\obj\actor\debug/FEM_ObjectBroker.obj
+         .\..\..\obj\actor\debug/FEM_ObjectBrokerAllClasses.obj
+         .\..\..\obj\actor\debug/HTTP.obj
+         .\..\..\obj\actor\debug/Message.obj
+         .\..\..\obj\actor\debug/MovableObject.obj
+         .\..\..\obj\actor\debug/ObjectBroker.obj
+         .\..\..\obj\actor\debug/Shadow.obj
+         .\..\..\obj\actor\debug/Socket.obj
+         .\..\..\obj\actor\debug/TCP_Socket.obj
+         .\..\..\obj\actor\debug/UDP_Socket.obj
+         actor.vcxproj -> F:\OpenSees2.4.0\Win32\proj\actor\.\..\..\lib\debug\actor.lib
+       BscMake:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\..\..\lib\debug\actor.bsc" .\..\..\obj\actor\debug\Actor.sbr .\..\..\obj\actor\debug\Channel.sbr .\..\..\obj\actor\debug\ChannelAddress.sbr .\..\..\obj\actor\debug\FEM_ObjectBroker.sbr .\..\..\obj\actor\debug\FEM_ObjectBrokerAllClasses.sbr .\..\..\obj\actor\debug\HTTP.sbr .\..\..\obj\actor\debug\Message.sbr .\..\..\obj\actor\debug\MovableObject.sbr .\..\..\obj\actor\debug\ObjectBroker.sbr .\..\..\obj\actor\debug\Shadow.sbr .\..\..\obj\actor\debug\Socket.sbr .\..\..\obj\actor\debug\TCP_Socket.sbr .\..\..\obj\actor\debug\UDP_Socket.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\actor\debug\actor.unsuccessfulbuild".
+         Touching ".\..\..\obj\actor\debug\actor.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\actor\actor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.18

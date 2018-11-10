@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="OpenSees2005">
+</Property><Property Name="Solution File" Value="C:\OpenSees2.4.0\Win32\proj\openSees\OpenSees2005.sln">
+</Property><Property Name="Date" Value="Tuesday, April 09, 2013">
+</Property><Property Name="Time" Value="17:50:27 PM">
+</Property></Properties><Event ErrorLevel="3" Project="OpenSees2005" Source="OpenSees2005.vcproj" Description="No Conversion Required">
+</Event></UpgradeLog>

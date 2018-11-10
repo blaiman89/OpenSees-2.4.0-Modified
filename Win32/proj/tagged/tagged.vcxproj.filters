@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="storage">
+      <UniqueIdentifier>{d53e9e68-b416-4339-892c-827a230f6a44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{00a1f911-8d16-40b3-a562-ef6d3a9c1a2d}</UniqueIdentifier>
+      <Extensions>.cpp</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{3ff23caa-a27d-4249-8742-bdb60ed2f384}</UniqueIdentifier>
+      <Extensions>.h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\SRC\tagged\storage\ArrayOfTaggedObjects.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\tagged\storage\ArrayOfTaggedObjectsIter.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\tagged\storage\MapOfTaggedObjects.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\tagged\storage\MapOfTaggedObjectsIter.cpp">
+      <Filter>storage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\SRC\tagged\TaggedObject.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\SRC\tagged\storage\ArrayOfTaggedObjects.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\tagged\storage\ArrayOfTaggedObjectsIter.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\tagged\storage\MapOfTaggedObjects.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\tagged\storage\MapOfTaggedObjectsIter.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\tagged\storage\TaggedObjectIter.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\tagged\storage\TaggedObjectStorage.h">
+      <Filter>storage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\SRC\tagged\TaggedObject.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

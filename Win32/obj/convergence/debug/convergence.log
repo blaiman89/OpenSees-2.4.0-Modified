@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\convergence\convergence.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\convergence\debug\convergence.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         convergence.vcxproj -> F:\OpenSees2.4.0\Win32\proj\convergence\.\..\..\lib\debug\convergence.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\convergence\debug\convergence.unsuccessfulbuild".
+         Touching ".\..\..\obj\convergence\debug\convergence.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\convergence\convergence.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

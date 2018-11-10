@@ -1,0 +1,20 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\material\material.vcxproj" on node 6 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\material\debug\material.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         material.vcxproj -> F:\OpenSees2.4.0\Win32\proj\material\.\..\..\lib\debug\material.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\material\debug\material.unsuccessfulbuild".
+         Touching ".\..\..\obj\material\debug\material.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\material\material.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.45

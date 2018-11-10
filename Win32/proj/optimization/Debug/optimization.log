@@ -1,0 +1,17 @@
+﻿Build started 10/1/2015 9:53:53 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\optimization\optimization.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\optimization.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         optimization.vcxproj -> F:\OpenSees2.4.0\Win32\proj\optimization\.\..\..\lib\debug\optimization.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\optimization.unsuccessfulbuild".
+         Touching "Debug\optimization.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\optimization\optimization.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

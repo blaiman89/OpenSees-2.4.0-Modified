@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\modelbuilder\modelbuilder.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\modelbuilder\debug\modelbuilder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         modelbuilder.vcxproj -> F:\OpenSees2.4.0\Win32\proj\modelbuilder\.\..\..\lib\debug\modelbuilder.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\modelbuilder\debug\modelbuilder.unsuccessfulbuild".
+         Touching ".\..\..\obj\modelbuilder\debug\modelbuilder.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\modelbuilder\modelbuilder.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

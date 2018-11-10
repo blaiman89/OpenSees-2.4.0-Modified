@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:53 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\tcl\tcl.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\tcl\debug\tcl.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         tcl.vcxproj -> F:\OpenSees2.4.0\Win32\proj\tcl\.\..\..\lib\debug\tcl.lib
+       BscMake:
+         F:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o".\..\..\lib\debug\tcl.bsc" .\..\..\obj\tcl\debug\TclFeViewer.sbr .\..\..\obj\tcl\debug\TclModelBuilder.sbr .\..\..\obj\tcl\debug\TclSectionTester.sbr .\..\..\obj\tcl\debug\TclUniaxialMaterialTester.sbr .\..\..\obj\tcl\debug\TclVideoPlayer.sbr .\..\..\obj\tcl\debug\commands.sbr .\..\..\obj\tcl\debug\elementAPI_TCL.sbr .\..\..\obj\tcl\debug\myCommands.sbr
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\tcl\debug\tcl.unsuccessfulbuild".
+         Touching ".\..\..\obj\tcl\debug\tcl.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\tcl\tcl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.32

@@ -1,0 +1,20 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\graph\graph.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\graph\debug\graph.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         graph.vcxproj -> F:\OpenSees2.4.0\Win32\proj\graph\.\..\..\lib\debug\graph.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\graph\debug\graph.unsuccessfulbuild".
+         Touching ".\..\..\obj\graph\debug\graph.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\graph\graph.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.06

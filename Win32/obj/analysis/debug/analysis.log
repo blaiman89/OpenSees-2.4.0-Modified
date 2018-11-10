@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\analysis\analysis.vcxproj" on node 8 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\analysis\debug\analysis.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         analysis.vcxproj -> F:\OpenSees2.4.0\Win32\proj\analysis\.\..\..\lib\debug\analysis.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\analysis\debug\analysis.unsuccessfulbuild".
+         Touching ".\..\..\obj\analysis\debug\analysis.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\analysis\analysis.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.16

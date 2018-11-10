@@ -1,0 +1,19 @@
+﻿Build started 10/1/2015 9:53:54 PM.
+     1>Project "F:\OpenSees2.4.0\Win32\proj\recorder\recorder.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating ".\..\..\obj\recorder\debug\recorder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         recorder.vcxproj -> F:\OpenSees2.4.0\Win32\proj\recorder\.\..\..\lib\debug\recorder.lib
+       BscMake:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file ".\..\..\obj\recorder\debug\recorder.unsuccessfulbuild".
+         Touching ".\..\..\obj\recorder\debug\recorder.lastbuildstate".
+     1>Done Building Project "F:\OpenSees2.4.0\Win32\proj\recorder\recorder.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.08
